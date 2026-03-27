@@ -1,0 +1,26 @@
+.ai-reply-btn {
+    transition: background-color 0.3s;
+    user-select: none;
+    font-size: 13px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 12px;
+    border-radius: 4px;
+    background-color: #1a73e8;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 1px 3px 1px rgba(60,64,67,0.149);
+}
+
+.ai-reply-btn:hover {
+    background-color: #1557b0;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 4px 8px 3px rgba(60,64,67,0.149);
+}
+
+.ai-reply-btn:active {
+    background-color: #174ea6;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Email Assistant</title>
+    <style>
+        body {
+            width: 300px;
+            padding: 15px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        h2 {
+            margin-top: 0;
+            color: #1a73e8;
+        }
+        .status {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        .btn {
+            background-color: #1a73e8;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background-color: #1557b0;
+        }
+    </style>
+</head>
+<body>
+    <h2>AI Email Assistant</h2>
+    <p class="status">Integration is active on Gmail.</p>
+    <p style="font-size: 0.85em;">Open any email in Gmail and look for the <b>✨ AI Reply</b> button near the Send button.</p>
+    <button class="btn" id="openSettings">Open Dashboard</button>
+
+    <script>
+        document.getElementById('openSettings').onclick = () => {
+             // In a real app, this could open the React frontend hosted at some URL
+             // or a local file if bundled.
+             window.open('http://localhost:5173'); // Default Vite port
+        };
+    </script>
+</body>
+</html>
